@@ -58,6 +58,7 @@
 		<version.java>1.8</version.java>
 		<version.guava>18.0</version.guava>
 		<jetty.version>9.3.0.v20150612</jetty.version>
+		<!-- <jetty.version>9.4.3.v20170317</jetty.version> -->
 		<version.jackson>2.6.3</version.jackson>
 		<version.velocity>1.7</version.velocity>
 		<version.opencsv>2.3</version.opencsv>
@@ -348,6 +349,12 @@
 						</goals>
 					</execution>
 				</executions>
+			</plugin>
+			<plugin>
+				<groupId>org.eclipse.jetty</groupId>
+				<artifactId>jetty-maven-plugin</artifactId>
+				<!-- <version>9.4.3.v20170317</version> -->
+				<version>9.3.0.v20150612</version>
 			</plugin>
 		</plugins>
 	</build>
